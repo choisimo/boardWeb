@@ -1,0 +1,44 @@
+#notificationModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #777;
+}
+
+#notificationList {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for each notification item */
+#notificationList li {
+  margin-bottom: 10px;
+}
+
+#notificationList a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#notificationList a:hover {
+  color: #007bff;
+}

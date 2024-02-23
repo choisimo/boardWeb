@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+ .post_writer_depth1 > li > ul {
+	 display: none;
+ }
+ .post_writer_depth1 > li:hover > ul {
+	 display : block;
+ }
+ .post_writer_depth1 > li {
+	 pointer-events : relative;
+ }
+ 
+ .post_writer_depth2 {
+	 padding : 2px 2px 2px 2px;
+	 background-color: #9ec5fe;
+	 position: absolute;
+	 z-index : 1;
+	 border-radius: 5px;
+	 margin-top : 2px;
+ }
+ 
+li, ul {
+	list-style : none;
+	padding-left : 0px;
+}
+
+.view_user_board {
+	font-size : 13px;
+	color: white;
+}

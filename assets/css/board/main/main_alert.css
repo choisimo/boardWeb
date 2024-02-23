@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+    .alert_list {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #f7f7f7;
+    }
+
+    .alert_list_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alert_list_main {
+        margin: 5px 0;
+    }
+
+    .alert_list_main a {
+        text-decoration: none;
+        color: #333;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .alert_list_main a:hover {
+        color: #0066cc;
+    }

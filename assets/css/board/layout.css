@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+  .header {
+    padding-left: 280px;
+  }
+
+  .sidebar {
+    width: 280px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;  
+    padding-top: 20px;
+  }
+
+  .header {
+    padding-left: 280px; /* Adjust the padding as needed */
+  }
+
+  .search-form {
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+ .mainContent {
+	 padding-top : 20px;
+ }
+ 
+    .pagination {
+        margin-right: 5px; /* Adjust as needed for spacing */
+    }
+    
+    .pagination {
+        margin: 0 5px; /* Adjust as needed for spacing */
+    }
+
+    .pagination a:hover {
+        background-color: #ddd;
+    }
+ 
+  .sidebar {
+    width: 280px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;  
+    padding-top: 20px;
+  }
+
+  .header {
+    padding-left: 280px; /* Adjust the padding as needed */
+  }
+
+  .search-form {
+    width: 50%; /* Adjust the width as needed */
+  }
+ 
+ @media only screen and (min-width : 1800px){
+  .mainContent{
+	  	 margin : auto auto;
+	  width: 40% !important;
+  	}
+  }
+  @media only screen and (min-width : 900px) and (max-width : 1300px){
+  .mainContent{
+	  margin : auto auto;
+	  width : 60% !important;
+  	}
+  }
+    @media only screen and (min-width : 1301px) and (max-width : 1799px){
+	.mainContent {
+		margin : auto auto;
+	  width: 50% !important;
+  	}
+  }
+ 
+     .pagination-container {
+        display: flex;
+    }
+
+    .pagination {
+        margin-right: 5px; /* Adjust as needed for spacing */
+    }
+    
+    
+       .pagination-container {
+        display: flex;
+        justify-content: center; /* Center the pagination buttons horizontally */
+        margin-top: 20px; /* Adjust as needed for spacing */
+        margin-bottom : 10px;
+    }
+
+    .pagination {
+        margin: 0 5px; /* Adjust as needed for spacing */
+    }
+
+.pagination a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 10px;
+    
+}
+    .pagination a:hover {
+        background-color: #ddd;
+    }
+
+/* for mobile */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding-left: 20px; /* Adjust the padding for smaller screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Take full width on smaller screens */
+    position: static; /* Remove fixed positioning */
+  }
+
+
+  .search-form {
+    width: 100%; /* Take full width on smaller screens */
+  }
+}

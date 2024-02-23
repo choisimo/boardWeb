@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#uploadModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalContent {
+    background: #131F2F;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    display: flex;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left : 50%;
+    z-index: 1000;
+    width: 250px;
+    height: 200px;
+    
+}
+
+#fileUploadProgress {
+    /* Your existing styling for the progress bar */
+    position: relative;
+    transform: translate(50%, 0%);
+}
+
+#progressText {
+    position: absolute;
+    font-size: 4vw; 
+    color: white;
+    letter-spacing: .01;
+}
+
+.bar {
+    width: 100%;
+    height: 20px; /* Adjust height as needed */
+    background: #ededed; /* Bar background color */
+    border-radius: 5px; /* Adjust as needed */
+    overflow: hidden;
+}
+.tox .tox-editor-header{	z-index:0 !important;}

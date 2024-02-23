@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+button#addCommentPhotoBtn{
+    padding: 5px 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 10px;
+    background-color: #00b5ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}    #addCommentPhotoBtn:hover {
+      background-color: rgb(0, 128, 255); /* 호버 시 배경색 변경 */
+    }
+    
+    div#comment_input {
+		border : 2px solid #ddd;
+		border-radius: 5px;
+		padding: 4px;
+		margin-top : 5px;
+	}
+	
+	.commentInputAction {
+    padding: 5px 15px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}.commentInputAction:hover{
+	background-color:  #45a049;
+}
+
+
+/** comment pagination btn */
+#comment_pagination_container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    justify-content: center; /* Add this line for center alignment */
+}
+
+#comment_pagination_container button {
+    background-color: #00b5ff;
+    border: 1px solid #00b5ff;
+    color: #fff;
+    cursor: pointer;
+    padding: 1px 5px;
+    margin: -5px 3px;
+    border-radius: 4px;
+}
+
+#comment_pagination_container button:hover {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+}
+
+.comment_recomment_button {
+	border : none;
+	margin-right : 3px;
+}
+
+#comment_input_position {
+	font-size : 10px;
+	color : var(--bs-gray-500);
+	display : contents;
+}
+
+
+#commentCancelAction {
+	font-size : 10px;
+	border : none;
+	background-color: gainsboro;
+	cursor: pointer;
+}
+
+.current-page-button {
+	background-color: rgb(128, 0, 255) !important;
+    border: 1px solid rgb(128, 0, 255) !important;
+}
+
+.reply {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: ghostwhite;
+}
+
+/* Style for user ID */
+
+.reply_delete_button{
+	border: none;
+	cursor : pointer;
+	background: none;
+}
+.replyWriterCheck{
+	font-size : 12px;
+	color : #5dade2;
+}
+
+.reply-time{
+	font-size : 12px;
+	color: #909090;
+}
+.reply-header {
+	margin-right : 20px;
+}
+.reply_actions {
+	top :0;
+	right: 0;
+	display: flex;
+	align-items: baseline;
+	margin-left : auto;
+}
+.reply-content {
+	align-items: center;
+	display: flex;
+}
+.comment_writer_id, .reply_writer_id {
+	font-size : 12px;
+}
+.reply_writer_id {
+    align-items: center;
+}

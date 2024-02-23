@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px){
+	.left_bar_information {
+		display:block;
+		margin-top : 100px;
+	}
+}
+
+@media screen and (max-width: 899px){
+	.left_bar_information {
+		display:none;
+	}
+}
+

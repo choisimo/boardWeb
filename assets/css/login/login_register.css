@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1506547113798-5133ceeb3f9a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=eb2927ac88cb43a8e396a3d0de7f3451');
+  background-size: cover;
+  background-color: #ff0;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  color: #fff;
+}
+
+@keyframes letter-in {
+  0% {
+    top: 1.2em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+@keyframes letter-out {
+  0% {
+    top: 0em;
+  }
+  100% {
+    top: -1.2em;
+  }
+}
+
+div.changing-title {
+  font-size: 30px;
+  height: 1.2em;
+  position: absolute;
+  width: 100%;
+  overflow-y: hidden;
+  margin-left: 1em;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+	top : 10%;
+	margin-left : 10vw;
+}
+div.changing-title  h1 {
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+
+    .letter {
+      position: relative;
+      top: 1.2em;
+      
+      &.in {
+        animation-name: letter-in;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+      }
+
+      &.out {
+        top: 0em;
+        animation-name: letter-out;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+

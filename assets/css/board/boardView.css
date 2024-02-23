@@ -1,0 +1,411 @@
+/* desktop */
+@media (min-width: 1537px) {
+/* 모든 테이블 기본 설정 */
+		.table-bordered {
+		  border-collapse: separate;
+		  border-radius: 16px !important;
+		  overflow: hidden;
+		  box-shadow: var(--get_shadow);
+		  margin-bottom: 0 !important;
+		  width: 100%; /* Set width to 100% for responsiveness */
+		}
+		
+		
+		
+		.content-center {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		}
+		
+		pre {
+		  width: 95%;
+		  white-space: pre-wrap;
+		  word-wrap: break-word;
+		  font-size: 12pt;
+		  color: var(--black);
+		  line-height: 160%;
+		  font-family: 'NanumSquareRound', verdana, tahoma;
+		}
+		
+		
+
+		
+		@media (min-width : 2000px)
+			{
+			/* Comment section styles */
+			#board_commentArea {
+			    padding-top :10px;
+			    padding-right : 20px;
+			    max-width: 50%;
+			}
+		} @media (max-width : 1999px)
+		{
+			#board_commentArea {
+				padding-top :10px;
+			}
+		}
+		
+		
+		
+		/* Adjustments for smaller screens */
+		@media (max-width: 768px) {
+		    .container,
+		    #board_commentArea {
+		        width: 100%; /* Full width on smaller screens */
+		    }
+		}
+		
+		#page_category {
+		    color: #777;
+		    font-size: 16px; 
+		}
+		
+		#boardView_post_title {
+			font-size : 30px;
+			font-weight: bold;
+		}
+		
+		
+		#boardView_post_writer_id{
+			color: #777;
+		    font-size: 14px; 
+		}
+		
+		#icons_in_header {
+		  padding-left : 20px;
+		  font-size : 14px;
+		  color: #777;
+		}
+		
+		#currentPageUrl {
+			width: 630px;
+			cursor: pointer;
+		}
+		
+		.post-content{
+		    font-size : 20px;
+		    padding-top: 70px;
+		}
+		
+		
+		.recommend-button {
+		    display: flex;
+		    justify-content: center; /* Center the button horizontally */
+		    align-items: center;
+		    cursor: pointer;
+		    border: 2px solid #007bff; /* Border color for the button */
+		    border-radius: 5px; /* Rounded corners for the button */
+		    padding: 5px 10px; /* Adjust padding as needed */
+		    margin: 10px auto; /* Center the button and add margin as needed */
+		    width: 80px; /* Adjust the width as needed */
+		    max-width: 120px; /* Maximum width for the button */
+		}
+		
+		.recommend-button.active {
+		    background-color: #007bff; /* Background color when active */
+		    color: #ffffff; /* Text color when active */
+		}
+		
+		    .recommend-icon {
+		        width: 20px; /* Adjust the size as needed */
+		        height: auto;
+		        margin-right: 5px; /* Adjust the spacing as needed */
+		    }
+		
+		    .recommend-label {
+		        font-size: 14px; /* Adjust the font size as needed */
+		        color: #007bff; /* Text color for the label */
+		    }
+		
+		    /* Additional styles for when the button is active (recommended) */
+		    .recommend-button.active {
+		        background-color: #007bff; /* Background color when active */
+		        color: #ffffff; /* Text color when active */
+		    }
+		
+		
+		#icons_in_header {
+		    display: flex;
+		    align-items: center; /* 세로 중앙 정렬 */
+		}
+		
+		#icons_in_header img,
+		#recommend-loading {
+		    margin-right: 10px; /* 각 아이콘들 간의 간격 조절 */
+		}
+		
+		/* 모든 테이블 기본 설정 */
+		.table-bordered {
+		  border-collapse: separate;
+		  border-radius: 16px !important;
+		  overflow: hidden;
+		  box-shadow: var(--get_shadow);
+		  margin-bottom: 0 !important;
+		  width: 100%; /* Set width to 100% for responsiveness */
+		}
+		
+		
+		
+		.content-center {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		}
+		
+		pre {
+		  width: 95%;
+		  white-space: pre-wrap;
+		  word-wrap: break-word;
+		  font-size: 12pt;
+		  color: var(--black);
+		  line-height: 160%;
+		  font-family: 'NanumSquareRound', verdana, tahoma;
+		}
+		
+
+		#page_category {
+		    color: #777;
+		    font-size: 16px; 
+		}
+		
+		#boardView_post_title {
+			font-size : 30px;
+			font-weight: bold;
+		}
+		
+		
+		#boardView_post_writer_id{
+			color: #777;
+		    font-size: 14px; 
+		}
+		
+		#icons_in_header {
+		  padding-left : 20px;
+		  font-size : 14px;
+		  color: #777;
+		}
+		
+		#currentPageUrl {
+			width: 630px;
+			cursor: pointer;
+		}
+		
+		.post-content{
+		    font-size : 20px;
+		    padding-top: 70px;
+		}
+		
+		
+		.recommend-button {
+		    display: flex;
+		    justify-content: center; /* Center the button horizontally */
+		    align-items: center;
+		    cursor: pointer;
+		    border: 2px solid #007bff; /* Border color for the button */
+		    border-radius: 5px; /* Rounded corners for the button */
+		    padding: 5px 10px; /* Adjust padding as needed */
+		    margin: 10px auto; /* Center the button and add margin as needed */
+		    width: 80px; /* Adjust the width as needed */
+		    max-width: 120px; /* Maximum width for the button */
+		}
+		
+		.recommend-button.active {
+		    background-color: #007bff; /* Background color when active */
+		    color: #ffffff; /* Text color when active */
+		}
+		
+		    .recommend-icon {
+		        width: 20px; /* Adjust the size as needed */
+		        height: auto;
+		        margin-right: 5px; /* Adjust the spacing as needed */
+		    }
+		
+		    .recommend-label {
+		        font-size: 14px; /* Adjust the font size as needed */
+		        color: #007bff; /* Text color for the label */
+		    }
+		
+		    /* Additional styles for when the button is active (recommended) */
+		    .recommend-button.active {
+		        background-color: #007bff; /* Background color when active */
+		        color: #ffffff; /* Text color when active */
+		    }
+		
+		
+		#icons_in_header {
+		    display: flex;
+		    align-items: center; /* 세로 중앙 정렬 */
+		}
+		
+		#icons_in_header img,
+		#recommend-loading {
+		    margin-right: 10px; /* 각 아이콘들 간의 간격 조절 */
+		}
+		
+		/*댓글 목록 디자인 */
+		.comment_list_Map {
+		    position: relative;
+		    background-color: #f2f2f2; /* Background color of the speech bubble */
+		    padding: 10px;
+		    margin: 10px 0;
+		    border-radius: 8px; /* Rounded corners */
+		}
+		
+		.comment_list_Map:after {
+		    content: '';
+		    position: absolute;
+		    bottom: 100%;
+		    left: 50%;
+		    border-width: 10px;
+		    border-style: solid;
+		    border-color: transparent transparent #f2f2f2 transparent; /* Adjust the last value for the border color */
+		    transform: translateX(-50%);
+		}
+		
+		.date { font-size: 12px; color: #909090; margin-top: 5px; margin-left: 14px;}
+		.commentWriterCheck { font-size : 12px; padding: 10px; color:  #5dade2 ; border-radius: 5px; }
+		
+		.comment_input {
+		    padding-bottom: 50px;
+		    padding-top: 10px;
+		    margin-bottom: 20px; /* Removed the duplicate entry */
+		}
+		
+		.comment_form {
+		    display: flex;
+		}
+		
+		.comment_form textarea {
+		    flex: 1;
+		    padding: 8px;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		}
+		
+		.comment_form button {
+		    background-color: #4CAF50;
+		    color: white;
+		    border: none;
+		    padding: 8px 16px;
+		    cursor: pointer; /* Added cursor property for better UX */
+		}
+		
+		
+		.comment_form button:hover {
+		    background-color: #45a049;
+		}
+		
+		/*
+		.board_delete, .board_edit {
+		    display: inline-block;  Display buttons in a line 
+		    margin-left: 10px;  Add some margin between the buttons 
+		    margin-top: 50px;
+		    justify-content: center;  Center the button horizontally 
+		    align-items: center;
+		    cursor: pointer;
+		    border: 2px solid #007bff;  Border color for the button 
+		    border-radius: 5px;  Rounded corners for the button 
+		    padding: 5px 10px;  Adjust padding as needed 
+		    margin: 10px auto;  Center the button and add margin as needed 
+		}*/
+	
+	
+
+
+		#button_actions {
+		    text-align: right;
+		    padding-top: 50px;
+		    margin-top: 20px;
+		    margin-bottom: -40px;
+		    padding-right: 12%;
+		    }
+		
+		.board_delete, .board_edit {
+		    display: inline-block;
+		    margin-left: 10px;
+		    cursor: pointer;
+		    border: 2px solid #007bff;
+		    border-radius: 5px;
+		    padding: 5px 10px;
+		}
+
+			
+		#board_hr_line {
+    		clear: both;
+		}
+		
+		.post-details {
+			padding-bottom: 100px;
+		}
+		
+		.comment_writer_id {
+		    flex-grow: 1;
+		}
+		.comment_actions {
+		    display: flex;
+		    float : right;
+		    white-space: nowrap;   
+		    margin-top: -40px;
+		    
+		}
+		
+		.editable-comment{
+		    overflow: hidden;
+		     width:95%;
+			white-space:pre-wrap;
+			word-wrap: break-word;
+		  FONT-SIZE: 12pt; COLOR: var(--black); LINE-HEIGHT: 160%; FONT-FAMILY: 'NanumSquareRound',verdana,tahoma;
+		}
+		
+		.comment_delete_button {
+		    border: none;
+		    background: none;
+		    padding: 0;
+		    margin: 0;
+		} 
+		
+		.refresh_comment_list_btn {
+			text-align : center;
+		}
+    .refresh_comment_list {
+        display: inline-block; /* 인라인 블록 요소로 변경하여 가운데 정렬 */
+        background-color: rgb(246, 246, 246); /* 버튼 배경 색상 */
+        color: #fff; /* 버튼 텍스트 색상 */
+        border: none; /* 테두리 없애기 */
+        padding: 8px 10px; /* 내부 여백 */
+        cursor: pointer; /* 커서를 손가락 형태로 변경 */
+        border-radius: 5px; /* 모서리를 둥글게 만들기 */
+    }
+
+    .refresh_comment_list:hover {
+        background-color: rgb(206, 206, 206); /* 마우스 호버 시 배경 색상 변경 */
+     
+     .refresh_text {
+		 margin-left : 2px;
+	  }
+    }
+}
+ @media only screen and (min-width : 1800px){
+		.container, #board_commentArea {
+		    width: 40% !important; /* Set the width of the container */
+		    margin: 0 auto; /* Center the container horizontally */
+		}
+  }
+  @media only screen and (min-width : 900px) and (max-width : 1300px){
+		.container, #board_commentArea {
+		    width: 60% !important; /* Set the width of the container */
+		    margin: 0 auto; /* Center the container horizontally */
+		}
+  }
+    @media only screen and (min-width : 1301px) and (max-width : 1799px){
+		.container, #board_commentArea {
+		    width: 50% !important; /* Set the width of the container */
+		    margin: 0 auto; /* Center the container horizontally */
+		}
+  }
+.container {
+	margin-top: -30px;
+}

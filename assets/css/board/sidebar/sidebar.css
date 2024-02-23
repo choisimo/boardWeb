@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.notification_button_alert {
+    position: relative;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+#notificationCount {
+    position: absolute;
+    top: -3px;
+    right: 15px;
+    background-color: red; /* 알림 수 표시 배경색 */
+    color: white; /* 알림 수 텍스트 색상 */
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 10px;
+    display: none; /* 초기에는 숨김 */
+}
+.modal{
+	 height : 50% !important;
+	 max-width : 400px !important;
+	 max-height: 270px !important;
+}
