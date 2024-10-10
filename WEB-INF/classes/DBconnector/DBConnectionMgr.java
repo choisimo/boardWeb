@@ -41,8 +41,8 @@ public class DBConnectionMgr {
     private String _driver = "org.gjt.mm.mysql.Driver",
     _url = "jdbc:mysql://192.168.10.24:2706/boardWeb?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
     //_url = "jdbc:mysql://34.64.95.42:2722/boardWeb?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
-    _user = "webdove",
-    _password = "dover1234!";
+    _user = "myuser",
+    _password = "mypassword";
     
     private boolean _traceOn = false;
     private boolean initialized = false;
